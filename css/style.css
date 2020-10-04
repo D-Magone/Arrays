@@ -1,0 +1,54 @@
+.tab1 tr:nth-child(even){background-color: aliceblue}
+
+.tab1 th, td {
+  padding: 8px;
+}
+
+.tab1{
+  padding: 12px 20px 12px 0;
+}
+
+th {
+  font-size: 20px;
+  background-color: aliceblue;
+}
+
+#myInput {
+  width: 300px;
+  font-size: 16px;
+  padding: 12px 20px 12px 10px;
+  border: 1px solid #ddd;
+}
+
+
+.modal{
+  position: fixed;
+  top: -100vh;
+  left: 30vw;
+  width: 40vw;
+  height: 40  vh;
+  background-color: #ccc;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 20px;
+  transition: .5s;
+}
+
+.showed{
+  top: 20vh;
+}
+
+.btn{
+  background-color: black;
+  border: none;
+  color: black;
+  font-size: 25px;
+  color: #ccc;
+}
+
+.btn:hover{
+  background-color: #ccc;
+  opacity: 0.7;
+  border: none;
+  color: black;
+}
